@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!-- This website template was created by: Student's First Name Student's Last Name -->
+<html lang="en">
+<head>
+	<title>Island Curb Grass & Garden</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Francois+One|Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<div id="container">
+
+	<!-- Use the header area for the website name or logo -->
+		<header>
+		<a href="index.html"><img src="garden-logo.png" alt="Island Curb Grass & Garden logo" height="260" width="260"></a>
+		</header>
+		
+	<!-- Use the nav area to add hyperlinks to other pages within the website -->
+		<nav>
+		          <ul>
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="about.html">About Us</a></li> 
+                <li><a href="contact.html">Contact Us</a></li>
+		            <li><a href="Curb.html">Curb Appeal</a></li>
+            	</ul>
+		</nav>
+		
+	<!-- Use the main area to add the main content of the webpage -->
+	<main>
+			<div id="services-container">
+				<div id="Real Estate Broker">
+					<h1>Real Estate Broker</h1>
+					<img src="lawn.jpg" alt="Side of home grass cut" class="round">
+					<p>We will keep your grass cut short, taking care of edging and trimming </p> 
+					<ul class="tablet-desktop">
+					<li>Yard Edging</li>
+					<li>Yard Waste Removal</li>
+					<li>A lot of Grass cutting</li>
+					<l1>Sidewalk and Driveway Powerwashing</li>
+					<li>Weedwacking, Shrub and Tree trimming</li>
+					</ul>
+				</div>
+			
+				<div id="Garden">
+					<h1>Garden</h1>
+					<img src="curb-appeal.jpg" alt="A Garden" class="round">
+					<p>Gardens come in all shapes and sizes. We will design and build you a garden for a free estimate and a 1-hour walkthru.</p>
+					<ul class="tablet-desktop">
+					<li>Garden Install</li>
+					<li>Irrigation Install</li>
+					<li>Add new plants to your Garden</li>
+					<li>Add mulch, landscape fabric, garden soil</li>
+					</ul>
+				
+				</div>
+			
+				<div id="Curb Appeal">
+					<h1>Curb Appeal</h1>
+					<img src="flower-cart.JPG" alt="looking from the deck" class="round">
+					<p>The owner of Island Curb Grass and Garden is also a Real Estate Broker licensed in Washington State. Curb Appeal adds value to your home and garden.</p>
+					<ul class="tablet-desktop">
+					<li>Accountability</li>
+					<li>Personalized for your home</li>
+					<li>Scott, being in real estate, has an eye for Curb Appeal</li>
+					</ul>
+				</div>
+			</div>
+	</main>
+		
+		<!-- Use the footer area to add webpage footer content -->
+		<footer>
+			<p>&copy; Copyright 2025. All Rights Reserved.</p>
+			<p><a href="mailto:IslandCurbGG@flower.net">IslandCurbGG@flower.net</a></p>
+		</footer>
+	</div>
+</body>
+</html>
