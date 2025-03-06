@@ -28,7 +28,7 @@ header {
     position: -webkit-sticky; 
     position: sticky;
     top: 0;
-    background-color #4CBB17;
+    background-color #50c878;
     height: 280px;
 }
 
@@ -148,7 +148,7 @@ footer p {
 }
 
 footer p a {
-    color: #fff;
+    color: #50c878;
     text-decoration: none;
 }
 
