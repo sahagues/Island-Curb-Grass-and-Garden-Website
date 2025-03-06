@@ -230,8 +230,8 @@ footer p a {
 	}
 	
 	nav li a:hover {
-		color: #000;
-		background-color: #BFFF00;
+		color: #4caf50;
+		background-color: #2e7d32;
 	}
 	
 	/* Desktop Viewport: Style Rules for main content */
