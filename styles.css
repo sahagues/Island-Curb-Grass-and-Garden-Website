@@ -28,7 +28,7 @@ header {
     position: -webkit-sticky; 
     position: sticky;
     top: 0;
-    background: linear-gradient(to right, #D2B48C #A0522D);
+    background-color #D2B48C;
     height: 280px;
 }
 
