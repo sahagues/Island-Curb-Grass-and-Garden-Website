@@ -75,7 +75,7 @@ nav li a {
 
 /* Style rules for main content */
 main {
-    background-color: #fff;
+    background: linear-gradient(to right, #D2B48C #884513);
     padding: 2%;
     font-size: 1.15em;
     font-family: 'Roboto Slab', serif;
