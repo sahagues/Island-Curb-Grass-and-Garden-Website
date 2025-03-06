@@ -33,7 +33,7 @@ header {
 }
 
 header img {
-    margin-bottom: 30px;
+    margin-bottom: 28px;
 }
 
 /* Style rules for navigation area */
@@ -75,7 +75,7 @@ nav li a {
 
 /* Style rules for main content */
 main {
-    background-color: #7F5112;
+    background-color: #228B22;
     padding: 2%;
     font-size: 1.15em;
     font-family: 'Roboto Slab', serif;
@@ -115,7 +115,7 @@ main {
 	margin: 1 1%;
 }
 .round {
-    border-radius: 8px;
+    border-radius: 9px;
 }
 
 .external-link {
@@ -141,7 +141,7 @@ main {
 
 /* Style rules for footer content */
 footer p {
-    font-size: 0.85em;
+    font-size: 0.90em;
     text-align: center;
     color: #fff;
     padding: 0 1em;
