@@ -254,6 +254,18 @@ footer p a {
 		float: left;
 		margin: 0 2%;
 	}
+
+	#Childhood, #College_Navy {
+		width:29%;
+		float:left;
+		margin: 0 1%;
+	}
+	
+	#Navy_Retirement_Present {
+		width:29%;
+		float:left;
+		margin: 0 1%;
+	}
 	
 	
 	
