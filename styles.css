@@ -81,50 +81,27 @@ main {
     font-family: 'Roboto Slab', serif;
 }
 
-.tel-link {
-    background-color: #404040;
-    padding: 2%;
-    margin: 0 auto;
-    width: 80%;
-    text-align: center;
-    border-radius: 5px;
-}
-
-.tel-link a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.5em;
-    display: block;
-}
-
-.hours {
-    margin-left: 10%;
-}
-
-.action {
-    font-size: 1.35em;
-    color: #666600;
-    font-weight: bold;
-}
-
-#Lawn, #Garden, #Curb_Appeal {
-    margin: 1 1%;
-}
-
-#Real_Estate_Broker, #On_Whidbey_Island_and_Surrounding_Areas {
-	margin: 1 1%;
-}
-
-#Story_Boss {
-    width: 29%;
+/* Childhood and College/Navy side by side */
+#childhood, #college_navy {
+    width: 48%;
     float: left;
-    margin: 0 2%;
+    margin: 1%;
 }
 
+/* Navy to Present - Full Width */
+#navy_to_present {
+    width: 100%;
+    clear: both;
+    text-align: center;
+    margin-top: 2%;
+}
+
+/* Ensuring images are rounded */
 .round {
     border-radius: 9px;
 }
 
+/* Link styles */
 .external-link {
     color: #666600;
     font-weight: bold;
@@ -250,16 +227,19 @@ footer p a {
 		font-size: 1.8em;
 	}
 	
-	#Lawn, #Garden, #Curb_Appeal, #Story_Boss {
-		width: 29%;
+	/* Ensure Childhood and College/Navy are side by side */
+	#childhood, #college_navy {
+		width: 48%;
 		float: left;
-		margin: 0 2%;
+		margin: 1%;
 	}
 
-	#Real_Estate_Broker, #On_Whidbey_Island_and_Surrounding_Areas {
-		width: 29%;
-		float: left;
-		margin: 0 2%;
+	/* Full Width for Navy to Present */
+	#navy_to_present {
+		width: 100%;
+		clear: both;
+		text-align: center;
+		margin-top: 2%;
 	}
 }
 
