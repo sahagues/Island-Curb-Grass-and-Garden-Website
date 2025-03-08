@@ -28,7 +28,7 @@ header {
     position: -webkit-sticky; 
     position: sticky;
     top: 0;
-    background-color #50c878;
+    background-color: #50c878;
     height: 280px;
 }
 
@@ -107,13 +107,20 @@ main {
     font-weight: bold;
 }
 
-#Lawn, #Garden, #Curb_Appeal{
+#Lawn, #Garden, #Curb_Appeal {
     margin: 1 1%;
 }
 
 #Real_Estate_Broker, #On_Whidbey_Island_and_Surrounding_Areas {
 	margin: 1 1%;
 }
+
+#Story_Boss {
+    width: 29%;
+    float: left;
+    margin: 0 2%;
+}
+
 .round {
     border-radius: 9px;
 }
@@ -178,16 +185,16 @@ footer p a {
 	}
 	
 	nav li:last-child {
-			border-right: none;
+		border-right: none;
 	}
 	
 	nav li a {
-			padding: 0.1em 0.75em;
+		padding: 0.1em 0.75em;
 	}
 	
 	/* Tablet Viewport: Style rules for main content area */
 	main ul {
-			margin: 0 0 4% 10%;
+		margin: 0 0 4% 10%;
 	}
 	
 	.tel-num {
@@ -198,8 +205,8 @@ footer p a {
 		width: 600px;
 		height: 450px;
 	}
-	
 }
+
 /* Media Query for Desktop Viewport */
 @media screen and (min-width: 1015px), print {
 	
@@ -240,10 +247,10 @@ footer p a {
 	}
 	
 	main h1 {
-		font-size: 1.8em
+		font-size: 1.8em;
 	}
 	
-	#Lawn, #Garden, #Curb_Appeal {
+	#Lawn, #Garden, #Curb_Appeal, #Story_Boss {
 		width: 29%;
 		float: left;
 		margin: 0 2%;
@@ -254,30 +261,20 @@ footer p a {
 		float: left;
 		margin: 0 2%;
 	}
-
-	
-	
-	
-	
 }
 
 /* Media Query for Large Desktop Viewports */
 @media screen and (min-width: 1921px) {
-	
 	#container {
 		width: 1920px;
 		margin: 0 auto;
 	}
-	
 }
 
 /* Media Query for Print */
 @media print {
-
 	body {
 		background-color: #fff;
 		color: #000;
 	}
 }
-
- 
