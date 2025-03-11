@@ -28,12 +28,19 @@ header {
     position: -webkit-sticky; 
     position: sticky;
     top: 0;
-    background-color: #50c878;
+    background-color: transparent;
     height: 280px;
+	display: flex;
+	justify-content: center;
+	max-width: 300px;
+	margin: 0 auto;
 }
 
 header img {
-    margin-bottom: 28px;
+    display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
 }
 
 /* Style rules for navigation area */
@@ -63,6 +70,47 @@ nav li a {
     padding: 0.5em 1em;
     text-decoration: none;
 }
+
+/* Flowery divider between header and body */
+.header-divider {
+	text-align: center;
+	font-size: 2em;
+	margin: 20px 0;
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	position: relative;
+}
+
+/* Add a solid line ABOVE the flowers */
+.header-divider::before {
+	content:'';
+	display: block;
+	width:100%;
+	height: 10px;
+	background-color: #C0C0C0;
+	margin-bottom: 10px;
+}
+	
+
+.header-divider::after {
+    content: "🌸🌼🌺🌷🌻🌿🌹💐 🌸🌼🌺🌷🌻🌿🌹💐 🌸🌼🌺🌷🌻🌿🌹💐 🌸🌼🌺🌷🌻🌿🌹💐 ";
+    display: block;
+    font-size: 2em;
+    letter-spacing: 10px;
+	margin-bottom: 10px;
+}
+
+/* white border below the flowers */
+.header-border {
+	width: 100%;
+	height: 18px;
+	background-color: #fff;
+	display: block;
+	margin: 0 auto;
+}
+
+	
 
 /* Show mobile class, hide tablet-desktop class */
 .mobile {
@@ -117,6 +165,105 @@ main {
 	margin: 1% 2%;
     width: 29%;
     float: left;
+}
+
+/* Apply Flexbox layout ONLY on Story_Boss.html */
+#Story_Boss #services-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: flex-start;
+	width: 90%;
+	margin: 0 auto;
+}
+
+/* Ensure layout changes apply ONLY to the Curb Appeal page */
+#Curb_Appeal_Page #services-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adds space between sections */
+    justify-content: space-between;
+    align-items: flex-start;
+	width: 90%;
+	margin: 0 auto;
+}
+
+/* Arrange Curb Appeal and Real Estate sections side by side ONLY on Curb.html */
+#Curb_Appeal_Page #Curb_Appeal_2, 
+#Curb_Appeal_Page #real_estate {
+    flex: 1; /* Makes both sections equal width */
+    min-width: 48%; /* Prevents excessive shrinking */
+    max-width: 48%; /* Keeps them at a readable size */
+}
+
+/* Make sure images don't shrink too much */
+#Curb_Appeal_Page #Curb_Appeal_2 img,
+#Curb_Appeal_Page #real_estate img {
+    width: 100%; /* Makes images scale properly */
+    max-width: 300px; /* Prevents oversized images */
+}
+
+/* Increase navigation font size ONLY for Story_Boss.html */
+#Story_Boss nav li a {
+    font-size: 1.3em; /* Matches other pages */
+    font-weight: bold; /* Optional */
+}
+
+#Story_Boss main {
+    font-size: 1.15em;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* Adjust heading sizes for consistency */
+#Story_Boss h1 {
+    font-size: 2em; /* Matches other page headings */
+}
+
+#Story_Boss h2 {
+    font-size: 1.5em; /* Adjusts subheadings */
+}
+
+/* Arrange images side by side ONLY in College and Navy section on Story_Boss.html */
+#College_Navy .college-navy-images {
+    display: flex;
+    justify-content: center; /* Centers the images */
+    gap: 20px; /* Adds space between images */
+	align-items: center; /* Keeps both images aligned */
+}
+
+#College_Navy .college-navy-images img {
+    width: auto; /* Keeps the original aspect ratio */
+    max-width: 400px; /* Increase max width */
+    height: auto; /* Ensures no stretching */
+}
+
+/* Make the right image slightly larger */
+#College_Navy .college-navy-images img:last-child {
+    max-width: 500px; /* Adjust to match left image size */
+}
+
+#College_Navy .college-navy-images img {
+    width: auto; /* Keeps the natural image size */
+    max-width: 45%; /* Makes sure images don’t get too big */
+}
+
+#Story_Boss #Childhood, #Story_Boss #College_Navy {
+    flex: 1;
+    min-width: 400px;
+    max-width: 600px;
+}
+
+/* Arrange images side by side ONLY in College and Navy section on Story_Boss.html */
+#College_Navy .college-navy-images {
+    display: flex;
+    justify-content: center; /* Centers the images */
+    gap: 20px; /* Adds spacing between images */
+}
+
+#College_Navy .college-navy-images img {
+    width: 45%; /* Ensures images take up almost half of the available space */
+    max-width: 300px; /* Prevents images from getting too large */
 }
 
 .round {
@@ -199,6 +346,7 @@ footer p a {
 		font-size: 1.25em;
 	}
 	
+	
 	.map {
 		width: 600px;
 		height: 450px;
@@ -245,16 +393,16 @@ footer p a {
 	}
 	
 	main h1 {
-		font-size: 1.8em;
+		font-size: 1.9em;
 	}
 	
 	#Lawn, #Garden, #Curb_Appeal, #Story_Boss {
-		width: 29%;
+		width: 26%;
 		float: left;
 		margin: 1% 2%;
 	}
 
-	#Real_Estate_Broker, #On_Whidbey_Island_and_Surrounding_Areas {
+	#Real_Estate_Broker, #Curb_Appeal_2Areas {
 		width: 29%;
 		float: left;
 		margin: 1% 2%;
